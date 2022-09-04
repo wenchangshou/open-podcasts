@@ -12,6 +12,7 @@ spec:
       port: 8000
       protocol: TCP
       targetPort: 8000
+      nodePort: 32007
   selector:
     control-plane: apiserver
   sessionAffinity: None
